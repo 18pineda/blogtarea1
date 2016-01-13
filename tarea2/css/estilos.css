@@ -1,0 +1,33 @@
+body {
+    font-family: "jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
+}
+section {
+    text-align: center;
+}
+img {
+    width: 40%;
+}
+div {
+    text-align: center;
+    font-weight: bold;
+    max-width: 900px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 60;
+}
+button {
+    background: green;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+section.part2 {
+    image-resolution: 540px 285px;
+    background-color: #0079bf;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+img.imag2 {
+    width: 85%;
+}
