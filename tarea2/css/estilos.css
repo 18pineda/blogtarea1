@@ -1,25 +1,43 @@
 body {
     font-family: "jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
+    color:#7d7d7d;
+    font-size: 17pt;
+    width: 100%;
 }
 section {
     text-align: center;
+    margin:auto;
+    width: 100%;
+    padding: 7% 0;
 }
+
+section p{
+    font-size: 1.2em;
+    padding: 0 20%;
+    
+}
+
 img {
-    width: 40%;
+    
 }
-div {
-    text-align: center;
-    font-weight: bold;
-    max-width: 900px;
-    margin-right: 20%;
-    margin-left: 20%;
-    font-size: 60;
+div.sangrado {
+    width: 60%;
+    margin: auto;
 }
-button {
-    background: green;
+
+a{
+    color:#999;
+}
+
+a.button {
+    background: linear-gradient(to bottom, #61bd4f 0, #5aac44 100%);
+    box-shadow: 0 2px 0 #3f6f21;
+    border-radius: 10px;
     font-weight: bold;
-    font-size: 16px;
+    text-decoration: none;
     color: white;
+    padding: 15px;
+    margin-top: 50px;
 }
 section.part2 {
     image-resolution: 540px 285px;
@@ -30,4 +48,64 @@ section.part2 {
 }
 img.imag2 {
     width: 85%;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    color:#4d4d4d;
+    padding-left:15%;
+    padding-right: 15%;
+}
+.bold{
+    font-weight: 900;
+}
+.boton_azul {
+    border: 1px solid #5e98ba;
+    padding: 10px;
+    color:#5e98ba;
+    text-decoration: none;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+
+.azul_claro {
+    background-color: #b6e2fc;
+}
+
+.celda {
+    display: inline-block;
+    width: 49%;
+    
+}
+.azul_oscuro {
+    background-color: 
+}
+
+.logos img{
+    margin: 0 1em 1em;
+}
+.mas_oscuro {
+    background-color: #42548e;
+}
+
+.mas_oscuro p{
+    color:#fff;
+}
+
+footer{
+    color: #ccc;
+    font-size: 14pt;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer ul{
+    width: 90%;
+    margin: auto;
+}
+
+footer li{
+    display: inline-block;
 }
