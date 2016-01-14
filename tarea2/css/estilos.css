@@ -132,20 +132,22 @@ img.movil{
 }
 
 footer{
-    padding: 5%;
+    padding: 5% 0;
     color: #ccc;
-    font-size: 14pt;
+    font-size: 12pt;
+}
+
+footer nav{
+    width: 65%;
+    margin: 0 auto;
 }
 
 footer p{
     text-align: center;
-}
-
-footer ul{
-    width: 90%;
-    margin: auto;
+    padding: 0 1%;
 }
 
 footer li{
     display: inline-block;
+    margin: 0 1%;
 }
