@@ -69,7 +69,7 @@ h1 {
 }
 
 .azul_claro {
-    background-color: #b6e2fc;
+    background-color: #B6E2FC;
 }
 
 .celda {
@@ -80,6 +80,11 @@ h1 {
 
 .celda p {
     font-size:0.9em;
+    padding: 6%;
+}
+
+img.movil{
+    height:54px;
 }
 
 .azul_oscuro {
