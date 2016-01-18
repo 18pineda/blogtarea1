@@ -76,6 +76,14 @@ div.colum{
     padding: 0 5%;
 }
 
+.colum a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #6ab344;
+    position: relative;
+    bottom: 0;
+}
+
 footer{
     color: rgb(117, 117, 117);
     font-size: 14px;
