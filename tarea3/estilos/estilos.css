@@ -9,7 +9,6 @@ img.img1{
 }
 
 nav.des1{
-    
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
@@ -36,9 +35,6 @@ p.parrafo1{
     
 }
 
-div.imagenes2{    
-}
-
 img.imagengrande2{
     height:1271px; 
     width:375px;
@@ -53,19 +49,36 @@ div.parte3{
 img.top{
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    height:243px; 
-    width:169px;
+    /*height:243px;*/ 
+    width:100%;
     cell-table:center;
 }
 
+.tarjetas{
+    border: 1px solid green;
+    padding: 0 9%;
+    min-height: 720px;
+}
+
 div.colum{
-        display: inline-block;
-        float: left;
-        
+    color:#666;
+    display: inline-block;
+    float: left;
+    width:22%;
+    min-height: 650px;
+    margin: 0 1%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 5px 10px 10px #999
+}
+
+.colum h3, .colum p, .colum a{
+    padding: 0 5%;
 }
 
 footer{
     color: rgb(117, 117, 117);
     font-size: 14px;
-    position: absolute;
+    display: block;
+    /*position: absolute;*/
 }
