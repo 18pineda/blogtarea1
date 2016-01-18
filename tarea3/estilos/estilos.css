@@ -3,10 +3,11 @@ font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 img.img1{
-    image-resolution: 14opx 28px;
-     height:28px; 
+    image-resolution: 14px 28px;
+    height:28px; 
     width:140px;
 }
+
 nav.des1{
     
     cursor: pointer;
@@ -20,11 +21,8 @@ nav.des1{
 
 section.seccion1{
     text-align:center;
-    
-    
-    
-    
 }
+
 h2.ps1{
     color: rgb(33, 33, 33);
     font-size: 40px;
@@ -37,14 +35,13 @@ p.parrafo1{
     line-height: 48px;
     
 }
-div.imagenes2{
-    
-    
+
+div.imagenes2{    
 }
+
 img.imagengrande2{
     height:1271px; 
     width:375px;
-}
 }
         
 div.parte3{
@@ -52,6 +49,7 @@ div.parte3{
         font:red;
     
 }
+
 img.top{
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -59,11 +57,13 @@ img.top{
     width:169px;
     cell-table:center;
 }
-}
+
 div.colum{
         display: inline-block;
-    float: left;
+        float: left;
+        
 }
+
 footer{
     color: rgb(117, 117, 117);
     font-size: 14px;
