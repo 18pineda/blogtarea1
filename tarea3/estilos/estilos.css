@@ -5,6 +5,7 @@ body {
 }
 footer {
     color: rgb(117, 117, 117);
+    background-color: #fafafa;
     font-size: 14px;
     display: block;
     padding: 2% 5%;
@@ -82,14 +83,37 @@ div.colum {
 }
 .left,
 .right {
-    border: 1px dashed green;
     display: inline-block;
-    height: 4%;
-    width: 49%;
+    height: 10%;
     margin: auto;
+    vertical-align: middle;
 }
 .right {
     text-align: right;
+    width: 33%;
+}
+
+.left {
+    width: 66%;
+}
+
+.left select, .right select{
+    border: none;
+    background-color: #fafafa;
+    color: #757575;
+    font-size: 1.1em;
+    margin: auto 1%;
+}
+
+.left a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 1.1em;
+    margin: auto 1%;
+}
+
+.left a:hover {
+    color:#6ab344;
 }
 
 .colum h3,
