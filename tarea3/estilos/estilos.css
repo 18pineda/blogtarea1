@@ -1,6 +1,17 @@
+/**Generales*/
+
 body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+footer {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    display: block;
+    padding: 2% 5%;
+}
+
+/**De clase*/
+
 img.img1 {
     image-resolution: 14px 28px;
     height: 28px;
@@ -61,25 +72,56 @@ div.colum {
     border-radius: 3px;
     box-shadow: 5px 10px 10px #999
 }
+.banner {
+    margin-top: 5%;
+}
+.imagenes2 {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.left,
+.right {
+    border: 1px dashed green;
+    display: inline-block;
+    height: 4%;
+    width: 49%;
+    margin: auto;
+}
+.right {
+    text-align: right;
+}
+
 .colum h3,
 .colum p,
 .colum a {
     padding: 0 5%;
 }
-.colum a, .green {
+.colum a,
+.green {
     text-decoration: none;
     font-weight: bold;
     color: #6ab344;
     position: relative;
     bottom: 0;
 }
-
-footer {
-    color: rgb(117, 117, 117);
-    font-size: 14px;
-    display: block;
-    padding: 2% 5%;
+.imagenes2 div {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin-left: 3%;
 }
+.imagenes2 div img {
+    margin: 0;
+    padding: 0;
+}
+.imagenes2 p {
+    color: #6ab344;
+}
+
+
+/*Especificos*/
+
 #menu_arriba {
     width: 100%;
     height: 10%;
@@ -105,40 +147,4 @@ footer {
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: bold;
-}
-.banner {
-    margin-top: 5%;
-}
-
-.imagenes2{
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-.imagenes2 div{
-    display: inline-block;
-    text-align: center;
-    padding: 0;
-    margin-left: 3%;
-}
-
-.imagenes2 div img{
-    margin: 0;
-    padding: 0;
-}
-
-.imagenes2 p{
-    color: #6ab344;
-}
-
-.left, .right {
-    border: 1px dashed green;
-    display: inline-block;
-    height: 4%;
-    width: 49%;
-    margin: auto;
-}
-
-.right {
-    text-align: right;
 }
