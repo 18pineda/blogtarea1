@@ -47,7 +47,6 @@ img.top {
     cell-table: center;
 }
 .tarjetas {
-    border: 1px solid green;
     padding: 0 9%;
     min-height: 720px;
 }
@@ -67,7 +66,7 @@ div.colum {
 .colum a {
     padding: 0 5%;
 }
-.colum a {
+.colum a, .green {
     text-decoration: none;
     font-weight: bold;
     color: #6ab344;
