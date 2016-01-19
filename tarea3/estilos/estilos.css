@@ -108,18 +108,22 @@ footer {
 }
 
 .imagenes2{
-    border: 1px solid  red;
+    padding: 0;
+    margin: 0;
+    text-align: right;
 }
 .imagenes2 div{
     display: inline-block;
-    width: 19.5%;
     text-align: center;
-    border:1px dashed green;
     padding: 0;
+    margin-left: 3%;
 }
 
 .imagenes2 div img{
     margin: 0;
     padding: 0;
-    border: 1px solid yellow;
+}
+
+.imagenes2 p{
+    color: #6ab344;
 }
