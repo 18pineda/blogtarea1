@@ -130,3 +130,15 @@ footer {
 .imagenes2 p{
     color: #6ab344;
 }
+
+.left, .right {
+    border: 1px dashed green;
+    display: inline-block;
+    height: 4%;
+    width: 49%;
+    margin: auto;
+}
+
+.right {
+    text-align: right;
+}
