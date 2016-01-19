@@ -75,7 +75,11 @@ div.colum {
     position: relative;
 }
 .banner {
-    margin-top: 5%;
+    margin: 6% 0;
+    background-image: url(../images/banner1.png);
+    background-size: cover;
+    width:100%;
+    padding: 23% 0;
 }
 .imagenes2 {
     padding: 0;
