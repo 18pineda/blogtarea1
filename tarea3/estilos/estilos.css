@@ -71,7 +71,8 @@ div.colum {
     margin: 0 1%;
     border: 1px solid #ccc;
     border-radius: 3px;
-    box-shadow: 5px 10px 10px #999
+    box-shadow: 5px 10px 10px #999;
+    position: relative;
 }
 .banner {
     margin-top: 5%;
@@ -126,8 +127,13 @@ div.colum {
     text-decoration: none;
     font-weight: bold;
     color: #6ab344;
-    position: relative;
-    bottom: 0;
+}
+
+.colum a{
+	display:block;
+	position:absolute;
+	text-align: center;
+	bottom: 3%;
 }
 .imagenes2 div {
     display: inline-block;
