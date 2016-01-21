@@ -1,0 +1,153 @@
+body {
+    font-family: "jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
+    color:#7d7d7d;
+    font-size: 17pt;
+    width: 100%;
+}
+section {
+    text-align: center;
+    margin:auto;
+    width: 100%;
+    padding: 7% 0;
+}
+
+section p{
+    font-size: 1.2em;
+    padding: 0 20%;
+    
+}
+
+div.sangrado {
+    width: 60%;
+    margin: auto;
+}
+
+a{
+    color:#999;
+}
+
+a.button {
+    background: linear-gradient(to bottom, #61bd4f 0, #5aac44 100%);
+    box-shadow: 0 2px 0 #3f6f21;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
+section.part2 {
+    image-resolution: 540px 285px;
+    background-color: #0079bf;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+img.imag2 {
+    width: 85%;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    color:#4d4d4d;
+    padding-left:15%;
+    padding-right: 15%;
+}
+.bold{
+    font-weight: 900;
+}
+.boton_azul {
+    border: 1px solid #5e98ba;
+    padding: 10px;
+    color:#5e98ba;
+    text-decoration: none;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+
+.azul_claro {
+    background-color: #B6E2FC;
+}
+
+.celda {
+    display: inline-block;
+    width: 49%;
+    
+}
+
+.celda p {
+    font-size:0.9em;
+    padding: 6%;
+}
+
+img.movil{
+    height:54px;
+}
+
+.azul_oscuro {
+    background-color: 
+}
+
+.logos img{
+    margin: 0 1em 1em;
+}
+.mas_oscuro {
+    background-color: #42548e;
+}
+
+.mas_oscuro .imagen{
+    width: 35%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+.mas_oscuro .texto{
+    width:50%;
+    display: inline-block;
+}
+
+.mas_oscuro p{
+    color:#fff;
+    padding: 0;
+    font-size: 0.9em;
+    text-align: justify;
+    padding-right:20%;
+}
+
+.part2 .imagen {
+    width: 40%;
+    text-align: right;
+    display: table-cell;
+}
+
+.part2 .texto {
+    margin: 0;
+    width:60%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.part2 .texto p{
+    text-align: justify;
+}
+
+footer{
+    padding: 5% 0;
+    color: #ccc;
+    font-size: 12pt;
+}
+
+footer nav{
+    width: 65%;
+    margin: 0 auto;
+}
+
+footer p{
+    text-align: center;
+    padding: 0 1%;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0 1%;
+}
