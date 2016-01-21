@@ -151,3 +151,39 @@ footer li{
     display: inline-block;
     margin: 0 1%;
 }
+@media only screen and (max-width:1000px){
+    
+    section p{
+        padding: 0 5%;
+    }
+    .sangrado {
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .sangrado a{
+        font-size: 0.8em;
+    }
+    a.button{
+        margin:0;
+        padding: 0;
+        font-size: 0.6em;
+        padding: 5% 0;
+    }
+    .mas_oscuro .texto, .celda{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .mas_oscuro .texto{
+        text-align: center;
+    }
+    .mas_oscuro .imagen{
+        display: none;
+    }
+    .boton_azul {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+}
