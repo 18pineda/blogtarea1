@@ -210,3 +210,32 @@ div.colum {
     font-size: 1.2em;
     font-weight: bold;
 }
+
+@media only screen and (max-width:1000px){
+    #menu_arriba{
+        display: none;
+        /*font-size: 0.4em;*/
+    }
+    /*#menu_arriba a{
+        font-size: 0.6em;
+    }*/
+    p.parrafo1{
+        padding: 0 10%;
+    }
+    .imagenes2 div{
+        display:  block;
+        width: 90%;
+        margin: auto;
+    }
+    div.colum{
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    .left select{
+        display: none;
+    }
+    .left a{
+        font-size: 0.7em;
+    }
+}
